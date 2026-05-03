@@ -1,0 +1,46 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ---------- Data (do NOT commit raw datasets) ----------
+data/*.csv
+data/*.tsv
+data/*.parquet
+data/*.zip
+data/*.xlsx
+!data/README.md
+
+# ---------- Models / artifacts ----------
+*.h5
+*.keras
+*.pkl
+*.joblib
+mlruns/
+checkpoints/
+
+# ---------- IDE / OS ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---------- Logs ----------
+*.log
+logs/
