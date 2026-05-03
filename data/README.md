@@ -8,9 +8,7 @@ data/
 └── Test.csv    #  5,000 rows × 41 cols (V1–V40 + Target)
 ```
 
-## Why aren't they in the repo?
 
-The original sensor data shared by **ReneWind** is **confidential and ciphered**, and the project description asks contributors not to redistribute it. The CSVs are therefore intentionally **excluded from version control** via [`.gitignore`](../.gitignore).
 
 ## How to obtain the data
 
